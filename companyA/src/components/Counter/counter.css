@@ -1,0 +1,12 @@
+.increase, .decrease {
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin: 0 8px;
+  cursor: pointer;
+  background: #eee;
+}
+
+.increase:hover, .decrease:hover {
+  background: #e6e6e6;
+}

@@ -1,0 +1,39 @@
+.shop {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.shop__products {
+  /* https://stackoverflow.com/a/5737768/606321 */
+  border: 0 solid #e0e0e0;
+  border-width: 0 0 1px 1px;
+}
+
+.shop__products-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 35px;
+  border: 0 solid #e0e0e0;
+  border-width: 1px 1px 0 0;
+  padding: 5px;
+}
+
+.shop__checkout-button {
+  float: right;
+  background: #795548;
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+.shop__checkout-button:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.23), 0 3px 3px rgba(0, 0, 0, 0.16);
+}
+.shop__checkout-button:disabled, .shop__checkout-button[disabled] {
+  cursor: auto;
+  box-shadow: none;
+  background: #e5e5e5;
+  color: rgba(0, 0, 0, 0.3);
+}

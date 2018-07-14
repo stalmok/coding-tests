@@ -1,0 +1,43 @@
+.checkout {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.checkout h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.checkout__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.checkout__total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.checkout__total-price {
+  font-weight: bold;
+}
+
+.checkout__back {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.checkout__total .Select {
+  width: 55%;
+}
+
+.checkout__total .Select-control {
+  border-radius: 0;
+}
+.checkout__total .Select-control {
+  box-shadow: none !important;
+}
